@@ -1,0 +1,20 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="AvaloniaApplication1.App">
+
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+       <Style x:Key="btnDefault"
+               Selector ="Button">
+               <Setter Property="Background"
+                       Value="#FF6BD8FF"/>
+       </Style>
+        <Style Selector="Button"
+               Resources="{StaticResource ResourceKey=btnDefault}" />
+        <Style x:Key="btnMain"
+               Selector="Button">
+            <Setter Property="Background"
+                    Value="#76CAFF"/>
+        </Style>
+    </Application.Styles>
+</Application>
