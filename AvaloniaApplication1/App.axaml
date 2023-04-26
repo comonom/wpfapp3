@@ -14,7 +14,7 @@
         <Style x:Key="btnMain"
                Selector="Button">
             <Setter Property="Background"
-                    Value="#76CAFF"/>
+                    Value="#76CAFF"/>aaaaaaaaaaaaaaaaaaaaaa
         </Style>
     </Application.Styles>
 </Application>
